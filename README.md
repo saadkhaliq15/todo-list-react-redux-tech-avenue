@@ -2,6 +2,8 @@
 
 Simple todo list app built with React, Redux, Tailwind CSS, and Material UI.
 
+![Todo App Preview](./todo-app-preview.png)
+
 ## Author
 
 Saad Khaliq Khan
