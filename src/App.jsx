@@ -78,7 +78,7 @@ function App() {
                   </Typography>
                 </Box>
                 <Stack direction="row" spacing={2} flexWrap="wrap" useFlexGap>
-                  <Chip label={`Total: ${stats.total}`} sx={{ bgcolor: 'white', color: 'slate.900' }} />
+                  <Chip label={`Total: ${stats.total}`} sx={{ bgcolor: 'white', color: '#0f172a' }} />
                   <Chip label={`Completed: ${stats.completed}`} sx={{ bgcolor: 'rgba(255,255,255,0.18)', color: 'white' }} />
                   <Chip label={`Active: ${stats.active}`} sx={{ bgcolor: 'rgba(255,255,255,0.12)', color: 'white' }} />
                 </Stack>
