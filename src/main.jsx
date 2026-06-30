@@ -9,21 +9,25 @@ import { store } from './store'
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#0f766e',
+      main: '#0f172a',
     },
     secondary: {
-      main: '#b45309',
+      main: '#0f766e',
     },
     background: {
-      default: '#f8fafc',
+      default: '#f4f7fb',
       paper: '#ffffff',
+    },
+    text: {
+      primary: '#0f172a',
+      secondary: '#5b6475',
     },
   },
   shape: {
-    borderRadius: 16,
+    borderRadius: 20,
   },
   typography: {
-    fontFamily: '"Trebuchet MS", "Segoe UI", sans-serif',
+    fontFamily: '"Segoe UI Variable", "Segoe UI", "Helvetica Neue", Arial, sans-serif',
   },
 })
 
